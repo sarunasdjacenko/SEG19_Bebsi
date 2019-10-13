@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component renders correctly 1`] = `
+<div
+  id="view-staff"
+>
+  <div
+    class="container"
+    style="width: 100%; height: 100%;"
+  >
+    <table
+      class="collection with-header "
+      style="background: white; width: 100%; height: auto;"
+    >
+      <thead
+        class="collection-header"
+      >
+        <h4
+          style="padding: 20px; font-size: 3em;"
+        >
+          <b>
+            Staff
+          </b>
+        </h4>
+         
+        <tr
+          style="font-size: 1.5em;"
+        >
+          <th
+            style="padding: 20px;"
+          >
+            Role
+          </th>
+           
+          <th>
+            Email
+          </th>
+           
+          <th>
+            Name
+          </th>
+           
+          <th>
+            Department
+          </th>
+           
+          <th />
+        </tr>
+      </thead>
+        
+      <router-link-stub
+        class="btn green"
+        event="click"
+        id="addStaffBtn"
+        style="margin: 20px;"
+        tag="a"
+        to="/register"
+      >
+        Add Staff
+      </router-link-stub>
+    </table>
+  </div>
+</div>
+`;
